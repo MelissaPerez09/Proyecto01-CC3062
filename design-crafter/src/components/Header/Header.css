@@ -1,0 +1,85 @@
+.header{
+    margin-top: 10px;
+    justify-content: flex-end;
+    position: static;
+    display: flex;
+    align-items: center;
+    line-height: normal;
+    height: 100%;
+}
+
+.logo{
+    position: absolute;
+    vertical-align: middle;
+    margin: 0;
+    justify-content: left;
+    height: auto;
+    height:29px;
+    left: 9%;
+}
+
+.botones{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    vertical-align: middle;
+    margin: 20px;
+    justify-content: left;
+    right: 9%;
+}
+
+.work{
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    font-size: small;
+    font-weight: 600;
+    position: relative;
+    background-color: #F6F9F9;
+    border: none;
+    border-radius: 0%;
+    height: 45px;
+    width: 90px;
+    top: 0;
+}
+
+.work:hover{
+    background-color: #EEF0FF;
+    transition: all 0.2s linear; 
+}
+
+.how{
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    font-size: small;
+    font-weight: 600;
+    margin: 0;
+    height: auto;
+    background-color: #F6F9F9;
+    border-radius: 0%;
+    border: none;
+    height: 45px;
+    width: 90px;
+}
+
+.how:hover{
+    background-color: #EEF0FF;
+    transition: all 0.2s linear; 
+}
+
+.contact{
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    font-size: small;
+    font-weight: 600;
+    height: auto;
+    border: none;
+    background-color: #F6F9F9;
+    border-radius: 0%;
+    height: 45px;
+}
+
+.contact:hover{
+    background-color: #EEF0FF;
+    transition: all 0.2s linear; 
+}
