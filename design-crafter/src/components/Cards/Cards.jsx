@@ -5,7 +5,7 @@ function Cards(){
     return(
         <div className="cards">
             <div className="card">
-                <h1 className="Hc">Two ways we can work together</h1>
+                <h1 className="only-header">Two ways we can work together</h1>
             </div>
             <div className="card">
                 <img className="imageC" alt="xd" src="../src/assets/image05.png"/>

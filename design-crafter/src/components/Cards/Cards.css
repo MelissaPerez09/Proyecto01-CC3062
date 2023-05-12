@@ -4,11 +4,30 @@
     align-items: center;
     line-height: normal;
     width: 90%;
+    margin: 0 auto; /* para centrar las cartas horizontalmente */
+    justify-content: space-between; /* para distribuir las cartas en el espacio disponible */
+}
+
+.card{
+    width: 350px; 
+    height: 400px; 
+    overflow: hidden;
+}
+
+.only-header{
+    position: relative;
+    margin-top: 65px;
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    width: 100%;
 }
 
 .Hc{
     font-family: 'Montserrat';
-    font-size: 35px;
+    font-size: 2em;
     font-weight: 600;
     font-style: normal;
     text-align: left;
@@ -17,7 +36,7 @@
 
 .pc{
     font-family: 'Merriweather';
-    font-size: 17px;
+    font-size: 1em;
     font-style: normal;
     text-align: left;
     line-height: 35px;
@@ -28,6 +47,6 @@
 
 .imageC{
     position: relative;
-    width: 30px;
+    width: 25px;
     left: -45%;
 }
