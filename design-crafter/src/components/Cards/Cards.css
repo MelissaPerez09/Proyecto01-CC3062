@@ -1,0 +1,33 @@
+.cards{
+    position: relative;
+    display: flex;
+    align-items: center;
+    line-height: normal;
+    width: 90%;
+}
+
+.Hc{
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    width: 100%;
+}
+
+.pc{
+    font-family: 'Merriweather';
+    font-size: 17px;
+    font-style: normal;
+    text-align: left;
+    line-height: 35px;
+    color: gray;
+    margin-top: 20px;
+    width: 350px;
+}
+
+.imageC{
+    position: relative;
+    width: 30px;
+    left: -45%;
+}
