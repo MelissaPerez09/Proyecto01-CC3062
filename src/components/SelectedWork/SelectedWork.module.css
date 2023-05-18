@@ -2,44 +2,95 @@
     position: absolute;
     display: flex;
     align-items: center;
-    line-height: normal;
+    padding: 60px;
+}
+
+.MyExcitel{
+    padding: 60px;
+    margin-top: 650px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.MoreWork{
+    padding: 60px;
+    margin-top: 1200px;
+    position: absolute;
+    display: flex;
+    align-items:baseline;
+}
+
+.flesh{
+    padding: 60px;
+    margin-top: 1400px;
+    position: absolute;
+    display: flex;
 }
 
 .title{
     font-family: 'Montserrat';
     font-size: 2em;
     font-weight: 600;
+    line-height: 1.25;
     font-style: normal;
     text-align: left;
 }
 
+.fleshOut{
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.25;
+    font-style: normal;
+    text-align: left;
+    width: 400px;
+}
+
+
 .slide01{
-    margin: 20px;
-    width: 650px;
+    width: 770px !important;
+    border-radius: 10px;
 }
 
 .textsWork{
-    margin: 80px;
-    margin-top: 190px;
+    margin-left: 40px;
+    margin-top: 70px;
+    width: 400px;
+}
+
+.OtherTexts{
+    margin-right: 40px;
+    width: 380px;
 }
 
 .L20{
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 2em;
     font-weight: 600;
     font-style: normal;
     text-align: left;
-    width: 300px;
+    width: 400px;
+}
+
+.work{
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.25;
+    font-style: normal;
+    text-align: left;
+    width: 550px;
 }
 
 .highlight {
-    color: lightgray;
+    color: #B7C0C0;
     font-weight: 600;
 }
 
 .UI{
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 1em;
     color: lightgray;
     font-weight: 200;
     font-style: normal;
@@ -47,28 +98,57 @@
 }
 
 .design{
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', serif;
     font-size: 1em;
-    font-style: normal;
     text-align: left;
     line-height: 35px;
-    color: gray;
+    color: #8B9296;
     margin-top: 20px;
-    width: 400px;
+}
+
+.designcrafter{
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    text-align: left;
+    line-height: 2;
+    color: #8B9296;
+    margin-left: 130px;
+    width: 640px;
+    font-weight: 300;
 }
 
 .K{
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 2em;
     font-weight: 600;
     font-style: normal;
     text-align: left; 
+    line-height: 3px;
 }
 
 .people{
     font-family: 'Montserrat';
-    font-size: 18px;
-    color: gray;
+    font-size: 1em;
+    color: #747D83;
     font-style: normal;
-    text-align: left;   
+    text-align: left;  
+    font-weight: 600; 
+}
+
+.recent{
+    font-family: 'Montserrat';
+    letter-spacing: 0.1rem;
+    border-radius: 0.5rem;
+    font-size: 0.75em;
+    background-color: #EEF0FF !important;
+    font-weight: 600;
+    overflow: hidden;
+    border: none;
+    height: fit-content;
+}
+
+.recent:hover{
+    background-color: #D1D7FF !important;
+    border: none;
+    transition: all 0.2s linear;
 }

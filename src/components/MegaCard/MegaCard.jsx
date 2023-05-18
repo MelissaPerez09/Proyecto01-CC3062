@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./MegaCard.module.css" // Importar el módulo CSS
+import styles from "./MegaCard.module.css"
 
 function MegaCard() {
   return (

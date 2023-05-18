@@ -4,8 +4,8 @@
     align-items: center;
     line-height: normal;
     width: 90%;
-    margin: 0 auto; /* para centrar las cartas horizontalmente */
-    justify-content: space-between; /* para distribuir las cartas en el espacio disponible */
+    margin: 0 auto; 
+    justify-content: space-between;
 }
 
 .card{
