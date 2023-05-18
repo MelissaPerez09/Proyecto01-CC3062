@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './Header.module.css'
+import React from "react"
+import styles from "./Header.module.css"
 
 function Header() {
   return (
@@ -12,7 +12,7 @@ function Header() {
         <button className={styles.contact}>CONTACT</button>
       </div>
     </div>
-  );
+  )
 }
 
 export default Header

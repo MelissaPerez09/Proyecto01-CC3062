@@ -1,13 +1,19 @@
-import React from 'react';
-import styles from './MegaCard.module.css'; // Importar el módulo CSS
+import React from "react"
+import styles from "./MegaCard.module.css" // Importar el módulo CSS
 
 function MegaCard() {
   return (
     <div className={styles.container}>
       <div className={styles.Mega}>
         <div className={styles.space1}>
-          <img className={styles.image04} alt="xd" src="../src/assets/image04.png" />
-          <h1 className={styles.oneOne}>1-on-1 design collaboration for product visionaries</h1>
+          <img
+            className={styles.image04}
+            alt="xd"
+            src="../src/assets/image04.png"
+          />
+          <h1 className={styles.oneOne}>
+            1-on-1 design collaboration for product visionaries
+          </h1>
         </div>
 
         <div className={styles.space}>
@@ -27,7 +33,7 @@ function MegaCard() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default MegaCard;
+export default MegaCard

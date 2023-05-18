@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './First.module.css'
+import React from "react"
+import styles from "./First.module.css"
 
 function First() {
   return (
@@ -9,15 +9,24 @@ function First() {
           <div className={styles.text1}>FLAT RATE UI/UX DESIGN</div>
           <div className={styles.text2}>From idea to product, faster</div>
           <div className={styles.text3}>
-            Collaborate with a seasoned product designer to bring your product ideas to life with confidence in two weeks' time.
+            Collaborate with a seasoned product designer to bring your product
+            ideas to life with confidence in two weeks' time.
           </div>
           <button className={styles.learn}>LEARN HOW</button>
-          <img className={styles.image07} alt="xd" src="../src/assets/image07.png" />
+          <img
+            className={styles.image07}
+            alt="xd"
+            src="../src/assets/image07.png"
+          />
         </div>
-        <img className={styles.image01} alt="xd" src="../src/assets/image01.png" />
+        <img
+          className={styles.image01}
+          alt="xd"
+          src="../src/assets/image01.png"
+        />
       </div>
     </div>
-  );
+  )
 }
 
-export default First;
+export default First
