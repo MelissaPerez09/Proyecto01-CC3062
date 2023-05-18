@@ -1,3 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 .Mega{
     margin-top: -300px;
     position: relative;
@@ -15,7 +23,7 @@
     left: -45%;
 }
 
-.one-one{
+.oneOne{
     font-family: 'Montserrat';
     font-size: 2em;
     line-height: 1.25;

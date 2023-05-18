@@ -32,6 +32,11 @@
     width: 300px;
 }
 
+.highlight {
+    color: lightgray;
+    font-weight: 600;
+}
+
 .UI{
     font-family: 'Montserrat';
     font-size: 20px;
