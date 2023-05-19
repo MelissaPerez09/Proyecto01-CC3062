@@ -11,14 +11,14 @@ import Footer from "../Footer/Footer"
 function Global() {
   return (
     <div>
-      <Header/>
-      <First/>
-      <Cards/>
-      <MegaCard/>
-      <SelectedWork/>
-      <Product/>
-      <Vasil/>
-      <Footer/>
+      <Header />
+      <First />
+      <Cards />
+      <MegaCard />
+      <SelectedWork />
+      <Product />
+      <Vasil />
+      <Footer />
     </div>
   )
 }

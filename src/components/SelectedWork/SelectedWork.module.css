@@ -144,7 +144,9 @@
     font-weight: 600;
     overflow: hidden;
     border: none;
-    height: fit-content;
+    height: 3rem;
+    width: 13rem;
+    margin-left: 430px;
 }
 
 .recent:hover{

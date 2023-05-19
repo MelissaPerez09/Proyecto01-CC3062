@@ -14,7 +14,6 @@ function Product() {
         </div>
 
         <div className={styles.space2}>
-
           <div>
             <p className={styles.p}>Benefits</p>
             <ul className={styles.yes}>
@@ -46,10 +45,10 @@ function Product() {
         <div className={styles.space3}>
           <button className={styles.see}>SEE IF WE ARE A FIT</button>
           <img
-                className={styles.img6}
-                alt="xd"
-                src="../src/assets/image06.png"
-            />
+            className={styles.img6}
+            alt="xd"
+            src="../src/assets/image06.png"
+          />
         </div>
       </div>
     </div>

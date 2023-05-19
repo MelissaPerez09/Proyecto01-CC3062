@@ -3,7 +3,7 @@ import "./App.css"
 import Global from "./components/Global/Global"
 
 function App() {
-  return <Global />
+    return <Global />
 }
 
 export default App
