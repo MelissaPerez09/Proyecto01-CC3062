@@ -9,11 +9,15 @@
     "preview": "vite preview",
     "lint": "eslint ./src/*.jsx",
     "prettier": "prettier --write --no-semi '**/*.{js,jsx}'",
-    "postcss": "postcss src/**/*.module.css -d dist"
+    "postcss": "postcss src/**/*.module.css -d dist",
+    "test": "vitest"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "vitest": "^0.31.1",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
@@ -29,6 +33,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "jsdom": "^22.0.0",
     "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.8",

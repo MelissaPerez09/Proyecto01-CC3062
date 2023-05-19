@@ -30,7 +30,7 @@ function SelectedWork() {
     <div className={styles.root}>
       <div className={styles.SelectedWork}>
         <div>
-          <h1 className={styles.title}>Selected work</h1>
+          <h1 className={styles.title} data-testid="selected-work">Selected work</h1>
           <img
             className={styles.slide01}
             alt="xd"
