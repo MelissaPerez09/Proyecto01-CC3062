@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.container}>
-        <img className={styles.img8} alt="xd" src="/public/image08.png" />
+        <img className={styles.img8} alt="xd" src="/image08.png" />
 
         <div className={styles.footerTexts}>
           <h1 className={styles.question}>

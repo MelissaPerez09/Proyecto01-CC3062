@@ -34,7 +34,7 @@ function SelectedWork() {
           <img
             className={styles.slide01}
             alt="xd"
-            src="/public/slideshow01.jpg"
+            src="/slideshow01.jpg"
           />
         </div>
 
@@ -76,7 +76,7 @@ function SelectedWork() {
         <img
           className={styles.slide01}
           alt="xd"
-          src="/public/slideshow03.jpg"
+          src="/slideshow03.jpg"
         />
       </div>
 
