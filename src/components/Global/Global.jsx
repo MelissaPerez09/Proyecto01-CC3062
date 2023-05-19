@@ -6,6 +6,7 @@ import MegaCard from "../MegaCard/MegaCard"
 import SelectedWork from "../SelectedWork/SelectedWork"
 import Product from "../Product/Product"
 import Vasil from "../Vasil/Vasil"
+import Footer from "../Footer/Footer"
 
 function Global() {
   return (
@@ -17,6 +18,7 @@ function Global() {
       <SelectedWork/>
       <Product/>
       <Vasil/>
+      <Footer/>
     </div>
   )
 }
