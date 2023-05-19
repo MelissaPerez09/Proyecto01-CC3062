@@ -17,7 +17,7 @@ $ git clone https://github.com/MelissaPerez09/Proyecto01-CC3062
 
 2. Install all dependencies
 ```
-$ yarn add vite
+$ yarn install
 ```
 
 3. Running on localhost
