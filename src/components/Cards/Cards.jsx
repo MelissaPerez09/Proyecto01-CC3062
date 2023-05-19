@@ -15,7 +15,7 @@ function Cards() {
             <img
               className={styles.imageC}
               alt="xd"
-              src="../src/assets/image05.png"
+              src="/public/image05.png"
             />
             <h1 className={styles.Hc}>Flesh out your product idea</h1>
             <p className={styles.pc}>

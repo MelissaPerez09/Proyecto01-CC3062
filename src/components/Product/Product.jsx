@@ -47,7 +47,7 @@ function Product() {
           <img
             className={styles.img6}
             alt="xd"
-            src="../src/assets/image06.png"
+            src="/public/image06.png"
           />
         </div>
       </div>

@@ -4,7 +4,7 @@ import styles from "./Vasil.module.css"
 function Vasil() {
   return (
     <div className={styles.container}>
-      <img className={styles.img2} alt="xd" src="../src/assets/image02.png" />
+      <img className={styles.img2} alt="xd" src="/public/image02.png" />
 
       <div className={styles.textsVasil}>
         <h1 className={styles.hey}>Hey, I'm Vasil!</h1>

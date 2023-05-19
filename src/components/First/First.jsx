@@ -16,13 +16,13 @@ function First() {
           <img
             className={styles.image07}
             alt="xd"
-            src="../src/assets/image07.png"
+            src="/public/image07.png"
           />
         </div>
         <img
           className={styles.image01}
           alt="xd"
-          src="../src/assets/image01.png"
+          src="/public/image01.png"
         />
       </div>
     </div>

@@ -9,7 +9,7 @@ function MegaCard() {
           <img
             className={styles.image04}
             alt="xd"
-            src="../src/assets/image04.png"
+            src="/public/image04.png"
           />
           <h1 className={styles.oneOne}>
             1-on-1 design collaboration for product visionaries
