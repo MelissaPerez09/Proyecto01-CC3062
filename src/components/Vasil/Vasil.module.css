@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    padding: 69px;
+}
+
+
+.img2{
+    border-radius: 0 !important;
+    height: 530px;
+    vertical-align: top;
+    width: inherit;
+}
+
+.textsVasil{
+    margin-left: 100px;
+}
+
+.hey{
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+}
+
+.senior{
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    color: #C5C7C8;
+    width: 500px;
+}
+
+.pV{
+    font-family: 'Merriweather';
+    color: gray;
+    font-size: 1em;
+    line-height: 2;
+    font-weight: 300;
+    width: 600px;
+}
+
+.in{
+    font-family: 'Merriweather';
+    font-style: normal;
+    color: gray;
+    font-size: 1em;
+    line-height: 2;
+    font-weight: 300;
+    width: 600px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.link{
+    text-decoration: underline;
+    color: gray;
+}
+
+.list{
+    font-family: 'Merriweather';
+    color: gray;
+    font-size: 1em;
+    font-style: normal;
+    direction: var(--site-language-direction);
+}

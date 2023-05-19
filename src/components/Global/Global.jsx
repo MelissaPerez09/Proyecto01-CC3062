@@ -5,16 +5,18 @@ import Cards from "../Cards/Cards"
 import MegaCard from "../MegaCard/MegaCard"
 import SelectedWork from "../SelectedWork/SelectedWork"
 import Product from "../Product/Product"
+import Vasil from "../Vasil/Vasil"
 
 function Global() {
   return (
     <div>
-      <Header />
-      <First />
-      <Cards />
-      <MegaCard />
-      <SelectedWork />
-      <Product />
+      <Header/>
+      <First/>
+      <Cards/>
+      <MegaCard/>
+      <SelectedWork/>
+      <Product/>
+      <Vasil/>
     </div>
   )
 }
