@@ -10,7 +10,9 @@
     "lint": "eslint ./src/*.jsx",
     "prettier": "prettier --write --no-semi '**/*.{js,jsx}'",
     "postcss": "postcss src/**/*.module.css -d dist",
-    "test": "vitest"
+    "test": "vitest",
+    "storybook": "storybook dev -p 6006 --ci",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,6 +23,13 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-links": "^7.0.12",
+    "@storybook/blocks": "^7.0.12",
+    "@storybook/react": "^7.0.12",
+    "@storybook/react-vite": "^7.0.12",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
@@ -33,10 +42,13 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-storybook": "^0.6.12",
     "jsdom": "^22.0.0",
     "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.8",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.12",
     "vite": "^4.2.1"
   }
 }
