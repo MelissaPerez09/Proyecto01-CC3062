@@ -1,10 +1,11 @@
 import React from "react"
 import styles from "./Vasil.module.css"
+import image02 from '/image02.png'
 
 function Vasil() {
   return (
     <div className={styles.container}>
-      <img className={styles.img2} alt="xd" src="/image02.png" />
+      <img className={styles.img2} alt="xd" src="https://web.archive.org/web/20230308142244im_/https://designcrafter.co/assets/images/image02.png?v=f6c57937" />
 
       <div className={styles.textsVasil}>
         <h1 className={styles.hey}>Hey, I'm Vasil!</h1>

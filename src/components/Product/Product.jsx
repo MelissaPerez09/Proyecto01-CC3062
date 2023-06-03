@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./Product.module.css"
+import image06 from '/image06.png'
 
 function Product() {
   return (
@@ -47,7 +48,7 @@ function Product() {
           <img
             className={styles.img6}
             alt="xd"
-            src="/image06.png"
+            src="https://web.archive.org/web/20230308142243im_/https://designcrafter.co/assets/images/image06.png?v=f6c57937"
           />
         </div>
       </div>
