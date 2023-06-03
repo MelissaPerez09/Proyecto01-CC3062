@@ -1,7 +1,5 @@
 import React from "react"
 import styles from "./SelectedWork.module.css"
-import slideshow01 from '/slideshow01.jpg'
-import slideshow03 from '/slideshow03.jpg'
 
 function SelectedWork() {
   const text = "L20 Aid delivery in the hardest-to-reach communities"
@@ -36,7 +34,7 @@ function SelectedWork() {
           <img
             className={styles.slide01}
             alt="xd"
-            src="https://web.archive.org/web/20230308142243/https://designcrafter.co/assets/images/slideshow02-4b5ebe09.jpg?v=f6c57937"
+            src="/slideshow01.jpg"
           />
         </div>
 
@@ -78,7 +76,7 @@ function SelectedWork() {
         <img
           className={styles.slide01}
           alt="xd"
-          src="https://web.archive.org/web/20230308142243/https://designcrafter.co/assets/images/slideshow03-c7d83813.jpg?v=f6c57937"
+          src="/slideshow03.jpg"
         />
       </div>
 

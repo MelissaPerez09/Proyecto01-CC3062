@@ -1,7 +1,5 @@
 import React from "react"
 import styles from "./Cards.module.css"
-import image05 from '/image05.png'
-import image03 from '/image03.png'
 
 function Cards() {
   return (
@@ -17,7 +15,7 @@ function Cards() {
             <img
               className={styles.imageC}
               alt="xd"
-              src="https://web.archive.org/web/20230308142242im_/https://designcrafter.co/assets/images/image05.png?v=f6c57937"
+              src="/image05.png"
             />
             <h1 className={styles.Hc}>Flesh out your product idea</h1>
             <p className={styles.pc}>
@@ -29,7 +27,7 @@ function Cards() {
             <img
               className={styles.imageC}
               alt="xd"
-              src="https://web.archive.org/web/20230308142242im_/https://designcrafter.co/assets/images/image03.png?v=f6c57937"
+              src="/image03.png"
             />
             <h1 className={styles.Hc}>Improve user retention</h1>
             <p className={styles.pc}>

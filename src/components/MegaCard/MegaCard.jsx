@@ -1,6 +1,5 @@
 import React from "react"
 import styles from "./MegaCard.module.css"
-import image04 from '/image04.png'
 
 function MegaCard() {
   return (
@@ -10,7 +9,7 @@ function MegaCard() {
           <img
             className={styles.image04}
             alt="xd"
-            src="https://web.archive.org/web/20230308142243im_/https://designcrafter.co/assets/images/image04.png?v=f6c57937"
+            src="/image04.png"
           />
           <h1 className={styles.oneOne}>
             1-on-1 design collaboration for product visionaries

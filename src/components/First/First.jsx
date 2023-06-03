@@ -1,7 +1,5 @@
 import React from "react"
 import styles from "./First.module.css"
-import image07 from '/image07.png'
-import image01 from '/image01.png'
 
 function First() {
   return (
@@ -18,13 +16,13 @@ function First() {
           <img
             className={styles.image07}
             alt="xd"
-            src="https://web.archive.org/web/20230308142241im_/https://designcrafter.co/assets/images/image07.png?v=f6c57937"
+            src="/image07.png"
           />
         </div>
         <img
           className={styles.image01}
           alt="xd"
-          src="https://web.archive.org/web/20230308142242im_/https://designcrafter.co/assets/images/image01.png?v=f6c57937"
+          src="/image01.png"
         />
       </div>
     </div>

@@ -1,12 +1,11 @@
 import React from "react"
 import styles from "./Footer.module.css"
-import image08 from '/image08.png'
 
 function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.container}>
-        <img className={styles.img8} alt="xd" src="https://web.archive.org/web/20230308142243im_/https://designcrafter.co/assets/images/image08.png?v=f6c57937" />
+        <img className={styles.img8} alt="xd" src="/image08.png" />
 
         <div className={styles.footerTexts}>
           <h1 className={styles.question}>
